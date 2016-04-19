@@ -1,0 +1,52 @@
+{
+  "name": "random-binary",
+  "version": "1.0.0",
+  "description": "Generate a random binary number.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "jshint index.js",
+    "pretest": "npm run lint",
+    "test": "mocha -R spec",
+    "test:cov": "rm -rf ./test/coverage && istanbul cover _mocha --dir ./test/coverage -- -R spec",
+    "test:rpt": "npm run test:cov && coveralls < ./test/coverage/lcov.info",
+    "prepublish": "npm test"
+  },
+  "keywords": [
+    "uuid",
+    "id",
+    "generator",
+    "generate",
+    "gen",
+    "random",
+    "randomize",
+    "rand",
+    "util",
+    "utils"
+  ],
+  "author": {
+    "name": "bubkoo",
+    "email": "bubkoo.wy@gmail.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mock-end/random-binary.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mock-end/random-binary/issues"
+  },
+  "homepage": "https://github.com/mock-end/random-binary#readme",
+  "devDependencies": {
+    "jshint": "^2.9.1",
+    "chai": "^3.5.0",
+    "coveralls": "^2.11.9",
+    "istanbul": "^0.4.2",
+    "mocha": "^2.4.5"
+  },
+  "dependencies": {
+    "clamp": "^1.0.1",
+    "random-bool": "^1.0.0",
+    "random-natural": "^1.0.1",
+    "to-length": "^1.0.1"
+  }
+}
