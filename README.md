@@ -60,7 +60,7 @@ randomBinary(16);
 - [random-ipv4](https://github.com/mock-end/random-ipv4) - Generate a random ipv4 address.
 - [random-ipv6](https://github.com/mock-end/random-ipv6) - Generate a random ipv6 address.
 - [random-color](https://github.com/mock-end/random-color) - Generate a random color.
-- [random-uuid](https://github.com/bubkoo/random-uuid) - Generate a random uuid.
+- [random-uuid](https://github.com/mock-end/random-uuid) - Generate a random uuid.
 
 
 ## Contributing
