@@ -1,7 +1,7 @@
 {
   "name": "random-binary",
-  "version": "1.0.1",
-  "description": "Generate a random binary number.",
+  "version": "1.0.2",
+  "description": "Return a random binary number.",
   "main": "index.js",
   "scripts": {
     "lint": "jshint index.js",
@@ -12,16 +12,15 @@
     "prepublish": "npm test"
   },
   "keywords": [
-    "uuid",
-    "id",
-    "generator",
-    "generate",
-    "gen",
+    "binary",
+    "number",
     "random",
+    "randomly",
     "randomize",
-    "rand",
-    "util",
-    "utils"
+    "chance",
+    "test",
+    "dice",
+    "mock"
   ],
   "author": {
     "name": "bubkoo",
@@ -45,8 +44,8 @@
   },
   "dependencies": {
     "clamp": "^1.0.1",
-    "random-bool": "^1.0.0",
-    "random-natural": "^1.0.1",
+    "random-bool": "^1.0.1",
+    "random-natural": "^1.0.2",
     "to-length": "^1.0.1"
   }
 }
