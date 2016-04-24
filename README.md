@@ -49,7 +49,7 @@ randomBinary(16);
 
 ## Related
 
-- [random-octal](https://github.com/mock-end/random-octal) - Return a random octal.
+- [random-octal](https://github.com/mock-end/random-octal) - Return a random octal number.
 - [random-hexadecimal](https://github.com/mock-end/random-hexadecimal) - Return a random hexadecimal number.
 - [random-integral](https://github.com/mock-end/random-integral) - Return a random integer.
 - [random-natural](https://github.com/mock-end/random-natural) - Return a natural number.
