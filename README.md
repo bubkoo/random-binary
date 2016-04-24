@@ -14,7 +14,6 @@
 $ npm install --save random-binary 
 ```
 
-
 ## Usage
 
 > For more use-cases see the [tests](https://github.com/mock-end/random-binary/blob/master/test/spec/index.js)
@@ -45,7 +44,7 @@ randomBinary(16);
 // => 0101100001110000
 ```
 
-**Note**: `bit` should between `0` and `256`.
+**Note**: the `bit` should between `0` and `256`.
 
 
 ## Related
