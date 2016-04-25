@@ -30,7 +30,7 @@ By default, the bit length is randomly between `0` and `256`:
 
 ```js
 randomBinary();     
-// => 11010000101111010101011010101100
+// => '11010000101111010101011010101100'
 ```
 
 Can optionally specify a bit length and the result will be exactly that length:
@@ -38,15 +38,15 @@ Can optionally specify a bit length and the result will be exactly that length:
 ```js
 randomBinary(4); // or
 randomBinary({ bit: 4 });
-// => 0111
+// => '0111'
 
 randomBinary(8); // or
 randomBinary({ bit: 8 });
-// => 11011111
+// => '11011111'
 
 randomBinary(16); // or
 randomBinary({ bit: 16 });
-// => 0101100001110000
+// => '0101100001110000'
 ```
 
 **Note**: the `bit` should between `0` and `256`.
